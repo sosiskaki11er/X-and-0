@@ -32,7 +32,7 @@ function App() {
 
   const connectSocket = async () => {
     const socket = await socketService
-      .connect("http://localhost:9000")
+      .connect("https://x-and-0-server.onrender.com")
       .catch((err) => {
         console.log("Error: ", err);
       });
