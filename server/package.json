@@ -4,8 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "build": "react-scripts build --openssl-legacy-provider",
-    "start": "react-scripts start --openssl-legacy-provider",
+    "start": "nodemon"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
